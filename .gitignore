@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# Env & Secrets - NEVER push these
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Vector DB - Generated locally, rebuild with ingest.py
+chroma_db/
+chroma/
+*.sqlite3
+*.db
+
+# Data - Keep sample, ignore large private docs
+# Uncomment if you don't want your docs on GitHub
+# data/*.pdf
+# data/*.txt
+# !data/sample_docs.txt
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Cache
+*.log
+.cache/
+.pytest_cache/
+ragas_cache/

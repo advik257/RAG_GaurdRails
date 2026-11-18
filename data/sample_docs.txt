@@ -1,0 +1,8 @@
+RAG stands for Retrieval-Augmented Generation.
+It combines a retriever that finds relevant documents with a generator LLM that answers using those documents.
+This reduces hallucinations because the answer is grounded in your data.
+
+Guardrails in RAG are safety checks applied to user input and LLM output.
+They block prompt injection, PII leakage, toxic content, and off-topic questions.
+
+ChromaDB is a vector database used to store embeddings and retrieve similar chunks by semantic search.
